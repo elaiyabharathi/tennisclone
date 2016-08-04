@@ -143,6 +143,6 @@ public class Match {
         Scanner sc = new Scanner(System.in);
         String scoringList = sc.nextLine();
         Scoreboard scoreboard = new Scoreboard();
-        scoreboard.updateScoreboard(scoringList);
+        scoreboard.updateScoreboard(scoringList.toUpperCase());
     }
 }
